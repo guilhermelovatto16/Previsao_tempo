@@ -72,3 +72,32 @@ button:hover {
 .cartao p {
   margin: 5px 0;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .container {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+
+  .weather-info {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
